@@ -110,4 +110,58 @@ Input Tokens: 79
 Output Tokens: 1560
 Cost: $0.000948 (Free tier - theoretical paid cost)
 
-(a1-costs-tracker) PS E:\Agentic AI\a1-costs-tracker>
+# -------------------------------------------------------------------------------------------------
+
+                                   Response By google Gemini
+
+# -------------------------------------------------------------------------------------------------
+
+Reply:
+The phrase **"Quran o Hadith"** (often written in Urdu/Persian as _Quran-o-Hadith_, where the "o" means **"and"**) refers to the **Quran and the Hadith**.
+
+Together, they form the **two primary, foundational sources of guidance, law, and theology in Islam**. A Muslim's faith, daily practice, and moral code are derived directly from these two sources.
+
+Here is a breakdown of what each represents and how they work together:
+
+---
+
+### 1. The Quran (The Word of God)
+
+- **What it is:** The Holy Book of Islam, which Muslims believe is the literal, verbatim word of Allah (God).
+- **How it was revealed:** It was revealed to the Prophet Muhammad (peace be upon him) over a period of approximately 23 years through the Angel Gabriel (Jibril).
+- **Role:** It is the highest and most sacred authority in Islam. It outlines the fundamental beliefs (such as the oneness of God, the afterlife, and prophethood), moral principles, basic legal frameworks, and stories of past nations and prophets.
+- **Preservation:** Muslims believe the Quran is preserved in its original Arabic text without alteration.
+
+---
+
+### 2. The Hadith (The Prophetic Traditions)
+
+- **What it is:** The recorded collection of the **sayings, actions, habits, and tacit approvals** (things he saw and did not forbid) of the Prophet Muhammad (peace be upon him).
+- **Role:** While the Quran provides the direct divine message, the Hadith records how the Prophet implemented that message in daily life. This lived example is known as the **Sunnah**.
+- **Authentication:** Unlike the Quran, which was memorized and recorded in full during and immediately after the Prophet’s lifetime, Hadiths were compiled by scholars (such as Imam Bukhari and Imam Muslim) who created a rigorous science of authentication to verify which reports were authentic (_Sahih_), acceptable (_Hasan_), or weak (_Da'if_).
+
+---
+
+### How They Work Together
+
+The Quran and Hadith are complementary and inseparable in practice:
+
+1. **Broad Principles vs. Practical Details:**
+   - The Quran often gives broad commands, while the Hadith provides the specific instructions.
+   - _Example:_ The Quran commands Muslims to **pray (Salah)** and pay **alms (Zakat)**, but it does not specify the exact movements of prayer, the number of units (_rak'ahs_), or the specific percentages to give for charity. The Hadith provides these exact details through the Prophet's words: _"Pray as you have seen me pray."_
+
+2. **Explanation and Context:**
+   - The Hadith explains the historical context (_Asbab al-Nuzul_) behind why certain verses of the Quran were revealed, helping scholars interpret them accurately.
+
+3. **Moral Example:**
+   - When the Prophet’s wife, Aisha, was asked about his character, she famously replied: _"His character was the Quran."_ This means the Hadith shows the Quran in human action.
+
+---
+
+### Summary
+
+When someone uses the phrase **"Quran o Hadith,"** they are referring to the complete bedrock of Islam: **the Quran provides the divine constitution, andthe Hadith provides the practical guide on how to live by it.**
+
+Input Tokens: 9
+Output Tokens: 707
+Cost: $0.001770 (Free tier - theoretical paid cost)
