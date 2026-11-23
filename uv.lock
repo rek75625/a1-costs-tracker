@@ -9,6 +9,8 @@ source = { editable = "." }
 dependencies = [
     { name = "google-genai" },
     { name = "groq" },
+    { name = "httpx" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
 ]
 
@@ -16,6 +18,8 @@ dependencies = [
 requires-dist = [
     { name = "google-genai", specifier = ">=3.3.0" },
     { name = "groq", specifier = ">=1.7.0" },
+    { name = "httpx", specifier = ">=0.28.1" },
+    { name = "pydantic", specifier = ">=2.14.3" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 

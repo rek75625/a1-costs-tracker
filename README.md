@@ -165,3 +165,65 @@ When someone uses the phrase **"Quran o Hadith,"** they are referring to the com
 Input Tokens: 9
 Output Tokens: 707
 Cost: $0.001770 (Free tier - theoretical paid cost)
+
+# =======================================================================================================
+
+**Qur’an and Ḥadīth are the two foundational sources of Islam, but they serve different purposes and have different natures.** Below is a concise overview that explains what each term means, how they are related, and why they matter to Muslims.
+
+---
+
+## 1. The Qur’an (Arabic: القُرْآن)
+
+| Aspect             | Description                                                                                                                                                                                                     |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **What it is**     | The Qur’an is considered the **final, literal word of God (Allah)** as revealed in Arabic to the Prophet Muhammad (peace be upon him) over a period of about 23 years (610‑632 CE).                             |
+| **Form**           | A book of 114 chapters (surahs) and roughly 6,236 verses (āyāt). It is recited, memorised, and written in a distinctive, highly poetic style.                                                                   |
+| **Status**         | In Islamic belief the Qur’an is **inerrant, immutable, and the ultimate authority** for matters of faith, worship, ethics, and law.                                                                             |
+| **How it is used** | • Recitation in daily prayers (Salah) and on special occasions.<br>• Study (Tafsīr – exegesis) to understand meanings, context, and legal implications.<br>• Source of moral guidance and spiritual reflection. |
+| **Key point**      | The Qur’an tells _what_ God commands, promises, and warns about, but often leaves the _how_ (details of implementation) to be clarified by the Prophet’s practice, which is recorded in the Ḥadīth.             |
+
+---
+
+## 2. The Ḥadīth (Arabic: الحديث)
+
+| Aspect                             | Description                                                                                                                                                                                                                                                                                                                            |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **What it is**                     | A ḥadīth is a **recorded statement, action, or tacit approval** of the Prophet Muhammad (peace be upon him). It captures his **Sunnah** (the way he lived) and his explanations of Qur’anic verses.                                                                                                                                    |
+| **Structure**                      | Each ḥadīth consists of two parts: <br>• **Isnād** – the chain of narrators who transmitted the report. <br>• **Matn** – the actual text of the report.                                                                                                                                                                                |
+| **Classification of authenticity** | Scholars evaluate each isnād and matn to grade a ḥadīth’s reliability. The main categories are: <br>• **Ṣaḥīḥ** (sound/ authentic) – meets strict criteria. <br>• **Ḥasan** (good) – slightly weaker but still reliable. <br>• **Ḍa‘īf** (weak) – problematic chain or content. <br>• **Mawḍū‘** (fabricated) – rejected as false.     |
+| **Major collections**              | The most respected compilations in Sunni Islam are: <br>• **Sahih al‑Bukhari** and **Sahih Muslim** (the two “Sahihs”). <br>• **Sunan Abu Dawūd, Sunan al‑Tirmidhī, Sunan al‑Nasaʾī, Sunan Ibn Mājah**. <br>In Shia Islam, key works include **Al‑Kāfi**, **Man La‑yahduruhu al‑Faqih**, **Tahdhīb al‑Āthār**, and **Al‑Istiʿbār**.    |
+| **How it is used**                 | • **Legal rulings (fiqh):** Ḥadīth explain or detail Qur’anic injunctions (e.g., how to perform ablution, the exact words of prayer). <br>• **Moral and spiritual guidance:** sayings on character, etiquette, and worship. <br>• **Historical context:** they preserve the life of the Prophet (Sīra) and the early Muslim community. |
+| **Key point**                      | The ḥadīth provide the _practical implementation_ of Qur’anic principles and constitute the **Sunnah**, which together with the Qur’an form the dual source of Islamic law (Sharia).                                                                                                                                                   |
+
+---
+
+## 3. How the Qur’an and Ḥadīth Work Together
+
+1. **Complementarity** – The Qur’an gives the _principles_; the ḥadīth give the _details_. Example: The Qur’an commands Muslims to pray (Qur’an 2:43) but the ḥadīth specify the number of units (rakʿāt), timings, and recitations.
+2. **Hierarchy** – In matters of apparent contradiction, scholars give the Qur’an priority, using ḥadīth to interpret or elaborate only when the Qur’an is silent or ambiguous.
+3. **Authenticity filter** – Not every reported saying is accepted. Only **sahīḥ** (or at least **ḥasan**) ḥadīth are used to derive law; weak or fabricated reports are set aside.
+
+---
+
+## 4. Quick FAQ
+
+| Question                                               | Answer                                                                                                                                                                                                                    |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Can the Qur’an be changed?**                         | No. Muslims believe the Qur’an is the exact, unaltered word of God, preserved verbatim since its revelation.                                                                                                              |
+| **Do all Muslims accept the same ḥadīth collections?** | Generally, Sunni Muslims rely on the six canonical books mentioned above; Shia Muslims use a different set of collections. Within each tradition there are scholarly differences about the grading of individual reports. |
+| **What if a ḥadīth seems to contradict the Qur’an?**   | Scholars will re‑examine the chain, the context, and the wording. If the contradiction persists, the Qur’an prevails and the ḥadīth is either re‑interpreted, deemed weak, or set aside.                                  |
+| **Why are there multiple ḥadīth books?**               | Different compilers collected reports from different regions and chains. The “canonical” collections are those whose compilers applied the strictest criteria and whose works were widely accepted by later scholars.     |
+| **Is the Qur’an a ḥadīth?**                            | No. The Qur’an is considered the direct revelation; ḥadīth are human‑recorded reports about the Prophet’s life and teachings.                                                                                             |
+
+---
+
+### Bottom line
+
+- **The Qur’an** = God’s direct, final revelation, the primary scripture of Islam.
+- **The Ḥadīth** = Reports of the Prophet Muhammad’s words, deeds, and approvals, forming the Sunnah and providing the practical framework to live out the Qur’an’s teachings.
+
+Together they shape Islamic theology, law, ethics, and daily practice. If you’d like to dive deeper—e.g., into how scholars authenticate ḥadīth, famous examples of Qur’an‑ʿHadith interplay, or the major schools of Islamic jurisprudence—just let me know!
+
+Input Tokens: 79
+Output Tokens: 1562
+Cost: $0.000949 (Free tier - theoretical paid cost)
