@@ -1,22 +1,32 @@
-
 import os
 from dotenv import load_dotenv
 from groq import Groq
 
+
+import os
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+
 load_dotenv()
 
 api_key = os.getenv("GROQ_API_KEY")
-
 if not api_key:
     raise ValueError("GROQ_API_KEY not found. Check your .env file.")
 
-client = Groq(api_key=api_key)
+# Initialize ChatGroq instead of the raw Groq client
+model = ChatGroq(
+    model="openai/gpt-oss-120b",
+    api_key=api_key,
+    temperature=1,
+    max_tokens=2048,
+    reasoning_effort="medium"
+)
 
+# Use LangChain message objects in the list
 messages = [
-    {"role": "system", "content": "You are a helpful AI assistant."}
+    SystemMessage(content="You are a helpful AI assistant.")
 ]
-
-print("Welcome! Type 0 to exit.")
 
 print("Welcome! Type 0 to exit.")
 
@@ -29,25 +39,18 @@ while True:
     if not prompt:
         continue
 
-    messages.append({"role": "user", "content": prompt})
-    
+    # Append user input as a HumanMessage
+    messages.append(HumanMessage(content=prompt))
+
     try:
-        completion = client.chat.completions.create(
-            model="openai/gpt-oss-120b",
-            messages=messages,
-            temperature=1,
-            max_completion_tokens=2048,
-            reasoning_effort="medium"
-        )
+        # invoke() returns an AIMessage object directly
+        response = model.invoke(messages)
 
-        response = completion.choices[0].message.content
-
-        print(f"AI: {response}\n")
-        messages.append({
-            "role": "assistant",
-            "content": response
-        })
+        print(f"AI: {response.content}\n")
+        
+        # Append the AI's reply (you can also do messages.append(response))
+        messages.append(AIMessage(content=response.content))
 
     except Exception as e:
         print(f"API Error: {e}\n")
-        messages.pop() 
+        messages.pop()
